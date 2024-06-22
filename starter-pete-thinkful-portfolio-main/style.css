@@ -21,6 +21,12 @@ header {
   text-align: center;
 }
 
+.h-container{ 
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
 /* Containers */
 div {
   background-color: #eae2b7;
@@ -37,9 +43,46 @@ article div {
   width: 100%;
 }
 
+.a-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.a-items{
+  display: flex;
+  flex-direction: row;
+  align-content: right;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.a2-conatiner{
+  display: flex;
+}
+
+.p-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-items{
+  display: flex;
+  flex-direction: column;
+  width: 30%; 
+  text-align: center;
+}
+
+p, .p-container{
+  font-size: 14px;
+}
+
 /* Paragraphs */
 p {
   line-height: 1.5;
+  font-size: 14px;
 }
 
 /* Links */
@@ -60,11 +103,18 @@ img {
   width: 100%;
   max-width: 200px;
   height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-content: first baseline;
 }
 
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-content: left;
 }
 
 /* Footer */
